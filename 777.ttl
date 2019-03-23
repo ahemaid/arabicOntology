@@ -1,0 +1,1552 @@
+@prefix : <http://bassel.com/> .
+@prefix أ: <http://bassel.com/وَذْأَ> .
+@prefix ث: <http://bassel.com/رَثَ> .
+@prefix ج: <http://bassel.com/دَجْ> .
+@prefix ح: <http://bassel.com/دِحَ> .
+@prefix خ: <http://bassel.com/دَخِ> .
+@prefix د: <http://bassel.com/وَدِ> .
+@prefix ذ: <http://bassel.com/عَذَ> .
+@prefix ر: <http://bassel.com/دَوْرَ> .
+@prefix س: <http://bassel.com/وَعْسَ> .
+@prefix ش: <http://bassel.com/وَشَ> .
+@prefix ص: <http://bassel.com/وَصْ> .
+@prefix ض: <http://bassel.com/دَاحِضَ> .
+@prefix ط: <http://bassel.com/وَرْطَ> .
+@prefix ع: <http://bassel.com/يُعَ> .
+@prefix ف: <http://bassel.com/رَفْ> .
+@prefix ق: <http://bassel.com/وَرْقَ> .
+@prefix ك: <http://bassel.com/وُكْ> .
+@prefix ل: <http://bassel.com/خَلَ> .
+@prefix م: <http://bassel.com/وَذْمَ> .
+@prefix ن: <http://bassel.com/ذَنُ> .
+@prefix و: <http://bassel.com/دَوَّ> .
+@prefix ي: <http://bassel.com/وَافِيَ> .
+@prefix اح: <http://bassel.com/رَاحِ> .
+@prefix اد: <http://bassel.com/وَادِ> .
+@prefix ار: <http://bassel.com/وَارِ> .
+@prefix اف: <http://bassel.com/وَافِ> .
+@prefix ام: <http://bassel.com/ذَمَامَ> .
+@prefix ث2: <http://bassel.com/وَعْثَ> .
+@prefix خ2: <http://bassel.com/دَخَّ> .
+@prefix خ3: <http://bassel.com/دِخَ> .
+@prefix د2: <http://bassel.com/مَوْعِدَ> .
+@prefix ر2: <http://bassel.com/مِدْرَ> .
+@prefix ر3: <http://bassel.com/دَرْ> .
+@prefix ر4: <http://bassel.com/وَذِرَ> .
+@prefix ر5: <http://bassel.com/مَيْسَرَ> .
+@prefix ر6: <http://bassel.com/فِطْرَ> .
+@prefix ر7: <http://bassel.com/وَرِ> .
+@prefix ر8: <http://bassel.com/وَرَ> .
+@prefix ر9: <http://bassel.com/وِرْ> .
+@prefix س2: <http://bassel.com/مَرْسَ> .
+@prefix س3: <http://bassel.com/يَسَ> .
+@prefix س4: <http://bassel.com/يَسِ> .
+@prefix س5: <http://bassel.com/مَيْسُ> .
+@prefix ع2: <http://bassel.com/وَعْ> .
+@prefix ع3: <http://bassel.com/مَوْعِ> .
+@prefix ع4: <http://bassel.com/رِعَ> .
+@prefix ع5: <http://bassel.com/أَوْعَ> .
+@prefix ف2: <http://bassel.com/رِفَ> .
+@prefix ف3: <http://bassel.com/رُفَ> .
+@prefix ف4: <http://bassel.com/وَدَفَ> .
+@prefix ف5: <http://bassel.com/أَوْفَ> .
+@prefix ق2: <http://bassel.com/أَوْقَ> .
+@prefix ق3: <http://bassel.com/خِلْقَ> .
+@prefix ق4: <http://bassel.com/رَقُ> .
+@prefix ق5: <http://bassel.com/وَقْ> .
+@prefix ق6: <http://bassel.com/دُرْقُ> .
+@prefix ق7: <http://bassel.com/مُوْقَ> .
+@prefix ق8: <http://bassel.com/وَرَقَ> .
+@prefix ق9: <http://bassel.com/خَلِقَ> .
+@prefix ك2: <http://bassel.com/أَوْكَ> .
+@prefix ل2: <http://bassel.com/خُلاَلَ> .
+@prefix ل3: <http://bassel.com/دِخْلَ> .
+@prefix لا: <http://bassel.com/خِلاَ> .
+@prefix م2: <http://bassel.com/دُجْمَ> .
+@prefix م3: <http://bassel.com/خِمَ> .
+@prefix م4: <http://bassel.com/مُذَمَّ> .
+@prefix م5: <http://bassel.com/خَمْ> .
+@prefix م6: <http://bassel.com/رَثْمَ> .
+@prefix م7: <http://bassel.com/خُمَ> .
+@prefix م8: <http://bassel.com/رَحْمَ> .
+@prefix ن2: <http://bassel.com/ذَنَ> .
+@prefix و2: <http://bassel.com/دَوْ> .
+@prefix و3: <http://bassel.com/يَوْ> .
+@prefix ي2: <http://bassel.com/رُفَهْنِيَ> .
+@prefix ي3: <http://bassel.com/وَذِيَّ> .
+@prefix يج: <http://bassel.com/وَلِيجَ> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix اح2: <http://bassel.com/دَاحِ> .
+@prefix ر10: <http://bassel.com/دَرَ> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bassel: <http://bassel.com/> .
+@prefix bassel2: <http://bassel.com/#> .
+@base <http://bassel.com/> .
+
+<http://bassel.com/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://bassel.com/#PartOf
+bassel2:PartOf rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://bassel.com/#hasExample
+bassel2:hasExample rdf:type owl:DatatypeProperty .
+
+
+###  http://bassel.com/#hasType
+bassel2:hasType rdf:type owl:DatatypeProperty .
+
+
+###  http://bassel.com/#hasVocalized
+bassel2:hasVocalized rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://bassel.com/أداة
+bassel:أداة rdf:type owl:Class ;
+            rdfs:subClassOf bassel:كلمة ;
+            rdfs:comment "أداة"@ar .
+
+
+###  http://bassel.com/أَوْعَر
+bassel:أَوْعَر rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الصَّعب."@ar .
+
+
+###  http://bassel.com/أَوْفَى
+bassel:أَوْفَى rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الأَتَمُّ."@ar .
+
+
+###  http://bassel.com/أَوْقَاص
+bassel:أَوْقَاص rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "الزَّعانِف من النَّاس."@ar ,
+                             "المتفرِّقون."@ar .
+
+
+###  http://bassel.com/أَوْكَس
+bassel:أَوْكَس rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الأَنْقَص."@ar .
+
+
+###  http://bassel.com/إنسان
+bassel:إنسان rdf:type owl:Class ;
+             rdfs:subClassOf bassel:اسم ,
+                             bassel:مفهوم ;
+             rdfs:comment "إنسان"@ar .
+
+
+###  http://bassel.com/اسم
+bassel:اسم rdf:type owl:Class ;
+           rdfs:subClassOf bassel:كلمة ;
+           rdfs:comment "اسم"@ar .
+
+
+###  http://bassel.com/حجج
+bassel:حجج rdf:type owl:Class ;
+           rdfs:subClassOf bassel:اسم ,
+                           bassel:مفهوم ;
+           rdfs:comment "حجج"@ar .
+
+
+###  http://bassel.com/خالفة
+bassel:خالفة rdf:type owl:Class ;
+             rdfs:subClassOf bassel:كلمة ;
+             rdfs:comment "خالفة"@ar .
+
+
+###  http://bassel.com/خَلَل
+bassel:خَلَل rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الفسادُ والضَّعْفُ."@ar ,
+                          "مُنْفَرَج ما بين كلّ شيئين."@ar .
+
+
+###  http://bassel.com/خَلِقَة
+bassel:خَلِقَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "السَّحَابة المُسْتَوِيَة  المُخِيلَة للمطر."@ar .
+
+
+###  http://bassel.com/خَمْر
+bassel:خَمْر rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "العِنَب."@ar ,
+                          "ما أَسكر من الشَّرَاب وعصير العنب ونحْوِه، لأَنها تغطِّي العَقْلَ. (وهي مُؤَنَّثَة وقد تذكَّر)."@ar .
+
+
+###  http://bassel.com/خُلاَلَة
+bassel:خُلاَلَة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "ما يُلْقَى من بقيَّة الطَّعَام عِنْد التَّخلُّل."@ar .
+
+
+###  http://bassel.com/خُمَار
+bassel:خُمَار rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty bassel2:PartOf ;
+                                owl:someValuesFrom bassel:ناس
+                              ] ;
+              rdfs:comment "من النَّاس: جماعتهم وكَثرتهم."@ar .
+
+
+###  http://bassel.com/خِلاَل
+bassel:خِلاَل rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "المُخَالّة."@ar .
+
+
+###  http://bassel.com/خِلْقَة
+bassel:خِلْقَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الفِطْرَة."@ar .
+
+
+###  http://bassel.com/خِمَار
+bassel:خِمَار rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "العِمامة: لأَن الرَّجُل يغطِّي بها رأْسَه ويُديرها تحت الحنك."@ar .
+
+
+###  http://bassel.com/دَاحِض
+bassel:دَاحِض rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "من لا ثباتَ له ولا عزيمة في الأُمور."@ar .
+
+
+###  http://bassel.com/دَاحِضَة
+bassel:دَاحِضَة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty bassel2:PartOf ;
+                                  owl:someValuesFrom bassel:حجج
+                                ] ;
+                rdfs:comment "من الحجج: الباطلة."@ar .
+
+
+###  http://bassel.com/دَارِيّ
+bassel:دَارِيّ rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "العَطَّار. (نسبة إِلى دارِين)."@ar .
+
+
+###  http://bassel.com/دَجْم
+bassel:دَجْم rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الضَّرْبُ والنَّوْعُ."@ar .
+
+
+###  http://bassel.com/دَجْن
+bassel:دَجْن rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "إِلباسُ الغيم الأَرْضَ وأَقطار السَّمَاء."@ar .
+
+
+###  http://bassel.com/دَخِيل
+bassel:دَخِيل rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الأَجنبيُّ الذي يدخل وطن غيره ليستغلَّ."@ar .
+
+
+###  http://bassel.com/دَخَّال
+bassel:دَخَّال rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty bassel2:PartOf ;
+                                 owl:someValuesFrom bassel:رجال
+                               ] ;
+               rdfs:comment "من الرِّجَال: الكثير التَّصرف في الأُمور."@ar .
+
+
+###  http://bassel.com/دَرَك
+bassel:دَرَك rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "اسم مصدر من الإِدراك."@ar .
+
+
+###  http://bassel.com/دَرْك
+bassel:دَرْك rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "أَسفل كل شيءٍ ذي عُمْق، كالبئر ونحوها."@ar .
+
+
+###  http://bassel.com/دَوَّار
+bassel:دَوَّار rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الكثير الدَّوَران."@ar .
+
+
+###  http://bassel.com/دَوْر
+bassel:دَوْر rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الطَّبَقَة من الشَّيْءِ المُدار بعضُه فوق بعضِه."@ar .
+
+
+###  http://bassel.com/دَوْرَق
+bassel:دَوْرَق rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "قلنسوة كان يلبسها المتنسِّكون قديمًا."@ar .
+
+
+###  http://bassel.com/دُجْمَة
+bassel:دُجْمَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الظُّلْمَة."@ar .
+
+
+###  http://bassel.com/دُرْقُوع
+bassel:دُرْقُوع rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "الجوع الشَّديد."@ar .
+
+
+###  http://bassel.com/دِثَارِيّ
+bassel:دِثَارِيّ rdf:type owl:Class ;
+                 rdfs:subClassOf bassel:مفهوم ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty bassel2:PartOf ;
+                                   owl:someValuesFrom bassel:رجال
+                                 ] ;
+                 rdfs:comment "من الرِّجَال: الكسلان."@ar .
+
+
+###  http://bassel.com/دِحَاس
+bassel:دِحَاس rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الامتلاء والازدحام."@ar .
+
+
+###  http://bassel.com/دِخَال
+bassel:دِخَال rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty bassel2:PartOf ;
+                                owl:someValuesFrom bassel:ورد
+                              ] ;
+              rdfs:comment "في الوِرْدِ: أَن يُدْخِلَ بعيراً قد شرب بين بعيريْن ناهليْن."@ar .
+
+
+###  http://bassel.com/دِخْلَة
+bassel:دِخْلَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty bassel2:PartOf ;
+                                 owl:someValuesFrom bassel:إنسان
+                               ] ;
+               rdfs:comment "من الإِنْسَان: داخلته."@ar .
+
+
+###  http://bassel.com/ذَمَامَة
+bassel:ذَمَامَة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "الحياء والإِشفاق من الذَّم واللوم."@ar .
+
+
+###  http://bassel.com/ذَنَب
+bassel:ذَنَب rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "مِنْ كُلِّ شَيْءٍٍ: آخره."@ar .
+
+
+###  http://bassel.com/ذَنُوب
+bassel:ذَنُوب rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "من الأَيام: طويل الشَّرّ."@ar .
+
+
+###  http://bassel.com/رجال
+bassel:رجال rdf:type owl:Class ;
+            rdfs:subClassOf bassel:اسم ,
+                            bassel:مفهوم ;
+            rdfs:comment "رجال"@ar .
+
+
+###  http://bassel.com/رَاحِم
+bassel:رَاحِم rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الشَّاة الوارمة الرَّحِم."@ar .
+
+
+###  http://bassel.com/رَثَد
+bassel:رَثَد rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "ضَعَفَةُ النَّاس."@ar .
+
+
+###  http://bassel.com/رَثْمَة
+bassel:رَثْمَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الطَرَف من الخَبر."@ar .
+
+
+###  http://bassel.com/رَحْمَة
+bassel:رَحْمَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الخير والنِّعمة."@ar .
+
+
+###  http://bassel.com/رَفْش
+bassel:رَفْش rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الأَكل الجيِّد والشُّرْب في النَّعمة والأَمن."@ar .
+
+
+###  http://bassel.com/رَقُوء
+bassel:رَقُوء rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "ما يوضع على الدَّمِ ونحوه ليُرقِئه ويُسْكِنَه."@ar .
+
+
+###  http://bassel.com/رُفَة
+bassel:رُفَة rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "التِّبن."@ar .
+
+
+###  http://bassel.com/رُفَهْنِيَة
+bassel:رُفَهْنِيَة rdf:type owl:Class ;
+                   rdfs:subClassOf bassel:مفهوم ;
+                   rdfs:comment "رَغَدُ العَيْش، وسَعَةُ الرِّزْق والخِصْب والنَّعيم."@ar .
+
+
+###  http://bassel.com/رِعَة
+bassel:رِعَة rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الأَدب."@ar .
+
+
+###  http://bassel.com/رِفَاء
+bassel:رِفَاء rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الوفاق والوئام والخَلَف الصَّالِح. (وانظر: رفء)"@ar .
+
+
+###  http://bassel.com/صفة
+bassel:صفة rdf:type owl:Class ;
+           rdfs:subClassOf bassel:كلمة ;
+           rdfs:comment "صفة"@ar .
+
+
+###  http://bassel.com/ظرف
+bassel:ظرف rdf:type owl:Class ;
+           rdfs:subClassOf bassel:كلمة ;
+           rdfs:comment "ظرف"@ar .
+
+
+###  http://bassel.com/عَذَاة
+bassel:عَذَاة rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الأَرْض البعيدة من الماءِ والوَخَمِ والوَبَاء."@ar .
+
+
+###  http://bassel.com/عَذَل
+bassel:عَذَل rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "المَلاَمة."@ar .
+
+
+###  http://bassel.com/فعل
+bassel:فعل rdf:type owl:Class ;
+           rdfs:subClassOf bassel:كلمة ;
+           rdfs:comment "فعل"@ar .
+
+
+###  http://bassel.com/فِطْرَة
+bassel:فِطْرَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الطَّبيعة السَّليمة التي لم تُشَبْ بِعَيب."@ar .
+
+
+###  http://bassel.com/قوس
+bassel:قوس rdf:type owl:Class ;
+           rdfs:subClassOf bassel:اسم ,
+                           bassel:مفهوم ;
+           rdfs:comment "قوس"@ar .
+
+
+###  http://bassel.com/كلمة
+bassel:كلمة rdf:type owl:Class ;
+            rdfs:comment "كلمة"@ar .
+
+
+###  http://bassel.com/مفهوم
+bassel:مفهوم rdf:type owl:Class ;
+             rdfs:comment "مفهوم"@ar .
+
+
+###  http://bassel.com/مَرْسَن
+bassel:مَرْسَن rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الأَنْف."@ar .
+
+
+###  http://bassel.com/مَوْعِد
+bassel:مَوْعِد rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "العَهْد."@ar .
+
+
+###  http://bassel.com/مَوْعِدَة
+bassel:مَوْعِدَة rdf:type owl:Class ;
+                 rdfs:subClassOf bassel:مفهوم ;
+                 rdfs:comment "الوَعْد."@ar .
+
+
+###  http://bassel.com/مَيْسَرَة
+bassel:مَيْسَرَة rdf:type owl:Class ;
+                 rdfs:subClassOf bassel:مفهوم ;
+                 rdfs:comment "خِلافُ الميمنة، أَو الجهة اليسرى."@ar .
+
+
+###  http://bassel.com/مَيْسُور
+bassel:مَيْسُور rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "اليُسْر: وهو ضدّ المعسور. وهو مصدرٌ على وزن مفعول."@ar .
+
+
+###  http://bassel.com/مُذَمَّر
+bassel:مُذَمَّر rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "الكاهِل والعُنُق وما حَوْلَه إِلى الذِّفْرَي."@ar .
+
+
+###  http://bassel.com/مُوْقَر
+bassel:مُوْقَر rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty bassel2:PartOf ;
+                                 owl:someValuesFrom bassel:نخل
+                               ] ;
+               rdfs:comment "من النَّخل: الكثيرةُ الحمل."@ar .
+
+
+###  http://bassel.com/مِدْرَى
+bassel:مِدْرَى rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "القرن."@ar .
+
+
+###  http://bassel.com/ناس
+bassel:ناس rdf:type owl:Class ;
+           rdfs:subClassOf bassel:اسم ,
+                           bassel:مفهوم ;
+           rdfs:comment "ناس"@ar .
+
+
+###  http://bassel.com/نخل
+bassel:نخل rdf:type owl:Class ;
+           rdfs:subClassOf bassel:اسم ,
+                           bassel:مفهوم ;
+           rdfs:comment "نخل"@ar .
+
+
+###  http://bassel.com/نساء
+bassel:نساء rdf:type owl:Class ;
+            rdfs:subClassOf bassel:اسم ,
+                            bassel:مفهوم ;
+            rdfs:comment "نساء"@ar .
+
+
+###  http://bassel.com/ورد
+bassel:ورد rdf:type owl:Class ;
+           rdfs:subClassOf bassel:اسم ,
+                           bassel:مفهوم .
+
+
+###  http://bassel.com/وَادِك
+bassel:وَادِك rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "السَّمين ذو الوَدَك."@ar .
+
+
+###  http://bassel.com/وَارِد
+bassel:وَارِد rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "السَّابِق."@ar .
+
+
+###  http://bassel.com/وَافِل
+bassel:وَافِل rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "البالغ، أَو الوافِر من القَصَب."@ar .
+
+
+###  http://bassel.com/وَافِيَة
+bassel:وَافِيَة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "السِّنجَةُ التَّامة."@ar .
+
+
+###  http://bassel.com/وَدَفَة
+bassel:وَدَفَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الرَّوضَة الخضراء."@ar .
+
+
+###  http://bassel.com/وَدِيك
+bassel:وَدِيك rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "السَّمين."@ar .
+
+
+###  http://bassel.com/وَذِرَة
+bassel:وَذِرَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الكثير الوَذْر."@ar .
+
+
+###  http://bassel.com/وَذِيَّة
+bassel:وَذِيَّة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "الحقيرة."@ar .
+
+
+###  http://bassel.com/وَذْأَة
+bassel:وَذْأَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "العِلَّة."@ar .
+
+
+###  http://bassel.com/وَذْمَاء
+bassel:وَذْمَاء rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "العَاقِر."@ar .
+
+
+###  http://bassel.com/وَرَاء
+bassel:وَرَاء rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "تكون خَلفًا وتكون قُدَّامًا. (ضدّ)."@ar .
+
+
+###  http://bassel.com/وَرَاق
+bassel:وَرَاق rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "خُضرةُ الأَرْض من الحشيش وليس من الورق."@ar .
+
+
+###  http://bassel.com/وَرَقَة
+bassel:وَرَقَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "الخسيسُ مِنَ الرِّجَال."@ar .
+
+
+###  http://bassel.com/وَرِيد
+bassel:وَرِيد rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "مَثَلٌ في شِدَّةِ القُرْب."@ar .
+
+
+###  http://bassel.com/وَرِيس
+bassel:وَرِيس rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "المصبوغ بالوَرْس."@ar .
+
+
+###  http://bassel.com/وَرْطَة
+bassel:وَرْطَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ;
+               rdfs:comment "كلّ أَمْرٍ تَعْسُر النَّجاة منه."@ar .
+
+
+###  http://bassel.com/وَرْقَة
+bassel:وَرْقَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:مفهوم ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty bassel2:PartOf ;
+                                 owl:someValuesFrom bassel:قوس
+                               ] ;
+               rdfs:comment "في القَوْس: العَيْب."@ar .
+
+
+###  http://bassel.com/وَشَل
+bassel:وَشَل rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الماء القليل يتحلَّب من جبل أَو صخرة ولا يتَّصل قَطرُه."@ar .
+
+
+###  http://bassel.com/وَصْم
+bassel:وَصْم rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الصَّدْع."@ar .
+
+
+###  http://bassel.com/وَعْثَاء
+bassel:وَعْثَاء rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "المَشَقَّة والتَّعب."@ar .
+
+
+###  http://bassel.com/وَعْثَة
+bassel:وَعْثَة rdf:type owl:Class ;
+               rdfs:subClassOf bassel:نساء ;
+               rdfs:comment "من النِّساء: السَّمينة."@ar .
+
+
+###  http://bassel.com/وَعْد
+bassel:وَعْد rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "ما يَلْتَزِمُ الإِنْسَانُ بإِنجازِه لغيره من قَولٍ أَو فِعْل."@ar .
+
+
+###  http://bassel.com/وَعْسَاء
+bassel:وَعْسَاء rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "السَّهل اللَّيِّن من الرَّمْلِ تَغيبُ فيه الأَرجل."@ar .
+
+
+###  http://bassel.com/وَقْش
+bassel:وَقْش rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الحِسّ."@ar .
+
+
+###  http://bassel.com/وَلِيجَة
+bassel:وَلِيجَة rdf:type owl:Class ;
+                rdfs:subClassOf bassel:مفهوم ;
+                rdfs:comment "مَن تتَّخذه معتمدًا عليه من غير أَهلك."@ar .
+
+
+###  http://bassel.com/وُكْد
+bassel:وُكْد rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "السَّعي والجُهد."@ar .
+
+
+###  http://bassel.com/وِرْد
+bassel:وِرْد rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "النَّصِيبُ من القرآن أَو الذِّكر."@ar .
+
+
+###  http://bassel.com/يَسَار
+bassel:يَسَار rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "خِلاف اليَمِين، وهو الجهة اليُسرى."@ar .
+
+
+###  http://bassel.com/يَسِير
+bassel:يَسِير rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الهَيِّن."@ar .
+
+
+###  http://bassel.com/يَوْم
+bassel:يَوْم rdf:type owl:Class ;
+             rdfs:subClassOf bassel:مفهوم ;
+             rdfs:comment "الوقت الحاضِر؛ أَي: وَقْتُ التَّكَلُّمِ."@ar .
+
+
+###  http://bassel.com/يُعَار
+bassel:يُعَار rdf:type owl:Class ;
+              rdfs:subClassOf bassel:مفهوم ;
+              rdfs:comment "الشَّديد من أَصوات الشَّاة."@ar .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://bassel.com/أوعر
+bassel:أوعر rdf:type owl:NamedIndividual ,
+                     bassel:أَوْعَر ,
+                     bassel:اسم ;
+            bassel2:hasExample "يُقال: طَريقٌ أَوْعَر."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "أَوْعَر"^^xsd:string .
+
+
+###  http://bassel.com/أوفى
+bassel:أوفى rdf:type owl:NamedIndividual ,
+                     bassel:أَوْفَى ,
+                     bassel:اسم ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {وَأَنَّ سَعْيَهُ سَوْفَ يُرَى ثُمَّ يُجْزَاهُ الجَزاءَ الأَوْفَى} [النجم:41]."^^xsd:string ;
+            bassel2:hasType "اسم تفضيل"^^xsd:string ;
+            bassel2:hasVocalized "أَوْفَى"^^xsd:string .
+
+
+###  http://bassel.com/أوقاص
+bassel:أوقاص rdf:type owl:NamedIndividual ,
+                      bassel:أَوْقَاص ,
+                      bassel:اسم ;
+             bassel2:hasExample "يُقال: أَتانا أَوقاصٌ من بني فلان."^^xsd:string ,
+                                "يُقال: صَاروا أَوْقَاصًا."^^xsd:string ;
+             bassel2:hasType "جمع"^^xsd:string ;
+             bassel2:hasVocalized "أَوْقَاص"^^xsd:string .
+
+
+###  http://bassel.com/أوكس
+bassel:أوكس rdf:type owl:NamedIndividual ,
+                     bassel:أَوْكَس ,
+                     bassel:اسم ;
+            bassel2:hasExample "يُقال: أَوْكَسُ الثَّمَنَيْنِ: أَنْقَصُهُما."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "أَوْكَس"^^xsd:string .
+
+
+###  http://bassel.com/خلال
+bassel:خلال rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:خِلاَل ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {لاَ بَيْعٌ فِيهِ وَلاَ خِلاَلٌ}[إبراهيم:31]."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "خِلاَل"^^xsd:string .
+
+
+###  http://bassel.com/خلالة
+bassel:خلالة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:خُلاَلَة ;
+             bassel2:hasExample "يقال: فلانٌ يأْكل خُلالَتَه: إِذا كان بخيلاً."^^xsd:string ;
+             bassel2:hasType "مصدر"^^xsd:string ;
+             bassel2:hasVocalized "خُلاَلَة"^^xsd:string .
+
+
+###  http://bassel.com/خلقة
+bassel:خلقة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:خَلِقَة ,
+                     bassel:خِلْقَة ;
+            bassel2:hasExample "يقال: سَحَابَةٌ خَلِقَةٌ."^^xsd:string ,
+                               "يقال: عَيْبٌ خِلْقِيّ: موجودٌ من أَصل الخِلْقَة، وليس بعارض."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "خَلِقَة"^^xsd:string ,
+                                 "خِلْقَة"^^xsd:string .
+
+
+###  http://bassel.com/خلل
+bassel:خلل rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:خَلَل ;
+           bassel2:hasExample "يقال: جَاسَ خَلَلَ الدِّيار: سار وتردَّدَ بينَها."^^xsd:string ,
+                              "يقال: في رأْيه خَلَلٌ."^^xsd:string ,
+                              "يقال: هو خَلَلَهُم: بينَهم."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "خَلَل"^^xsd:string .
+
+
+###  http://bassel.com/خمار
+bassel:خمار rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:خُمَار ,
+                     bassel:خِمَار ;
+            bassel2:hasExample "وفي الحديث: \"أَنه كان يمسحُ على الخُفّ والخِمَار\": العِمامة."^^xsd:string ,
+                               "يقال: دخل فلانٌ في خُمار النَّاس: فيما يواريه ويَسْتُره من أَلمها."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "خُمَار"^^xsd:string ,
+                                 "خِمَار"^^xsd:string .
+
+
+###  http://bassel.com/خمر
+bassel:خمر rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:خَمْر ;
+           bassel2:hasExample "وفي التَّنْزيل العزيز: {إِنِّي أَرَانِي أَعْصِرُ خَمْرًا}[يوسف:36]."^^xsd:string ,
+                              "وفي المثل: \"خُمْرُ أَبي الرَّوْقاء ليست تسكر\": يضرب للغنيّ الذي لا فضلَ له على أَحدٍ ولا إِحسان."^^xsd:string ,
+                              "يقال: الخمر ياقوتة سيالة."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "خَمْر"^^xsd:string .
+
+
+###  http://bassel.com/داحض
+bassel:داحض rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَاحِض ;
+            bassel2:hasExample "يقال: فلانٌ داحِض: لا ثبات له ولا عزيمة في الأمور."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "دَاحِض"^^xsd:string .
+
+
+###  http://bassel.com/داحضة
+bassel:داحضة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:دَاحِضَة ;
+             bassel2:hasExample "يقال: حُجَّةٌ داحضة: باطلة."^^xsd:string ;
+             bassel2:hasType "اسم"^^xsd:string ;
+             bassel2:hasVocalized "دَاحِضَة"^^xsd:string .
+
+
+###  http://bassel.com/داري
+bassel:داري rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَارِيّ ;
+            bassel2:hasExample "وفي الحديث: \"مَثَل الجليس الصَّالح مَثَلُ الدَّارِيّ، إِن لم يُحذِك من عِطْره عَلِقَك مِنْ ريحه\"."^^xsd:string ;
+            bassel2:hasType "اسم منسوب"^^xsd:string ;
+            bassel2:hasVocalized "دَارِيّ"^^xsd:string .
+
+
+###  http://bassel.com/دثاري
+bassel:دثاري rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:دِثَارِيّ ;
+             bassel2:hasExample "يقال: رجلٌ دِثَارِيّ: كسلان ساكنٌ لا يتصرّف."^^xsd:string ;
+             bassel2:hasType "اسم"^^xsd:string ;
+             bassel2:hasVocalized "دِثَارِيّ"^^xsd:string .
+
+
+###  http://bassel.com/دجم
+bassel:دجم rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:دَجْم ;
+           bassel2:hasExample "يقال: أَمِنْ هذا الدَّجْم أَنت؟."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "دَجْم"^^xsd:string .
+
+
+###  http://bassel.com/دجمة
+bassel:دجمة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دُجْمَة ;
+            bassel2:hasExample "يقال: انقشعت دُجَمُ الباطل."^^xsd:string ,
+                               "يقال: هو في دُجَم الهوى."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "دُجْمَة"^^xsd:string .
+
+
+###  http://bassel.com/دجن
+bassel:دجن rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:دَجْن ;
+           bassel2:hasExample "يقال: يومُ دَجْنٍ. ويوصف به فيقال: يومٌ دَجْنٌ."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "دَجْن"^^xsd:string .
+
+
+###  http://bassel.com/دحاس
+bassel:دحاس rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دِحَاس ;
+            bassel2:hasExample "يقال: بيتٌ دِحَاسٌ: كثيرُ الأَهل."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "دِحَاس"^^xsd:string .
+
+
+###  http://bassel.com/دخال
+bassel:دخال rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَخَّال ,
+                     bassel:دِخَال ;
+            bassel2:hasExample "يقال: سَقَى إِبلَهُ دِخالاً."^^xsd:string ,
+                               "يقال: فلانٌ دَخَّال في الأُمور: كثيرُ التَّصرف فيها."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ,
+                            "صفة"^^xsd:string ;
+            bassel2:hasVocalized "دَخَّال"^^xsd:string ,
+                                 "دِخَال"^^xsd:string .
+
+
+###  http://bassel.com/دخلة
+bassel:دخلة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دِخْلَة ;
+            bassel2:hasExample "يقال: هو حَسَن الدِّخْلَة، وهو عفيف الدِّخْلَة، وهو خبيث الدِّخْلَة."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "دِخْلَة"^^xsd:string .
+
+
+###  http://bassel.com/دخيل
+bassel:دخيل rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَخِيل ;
+            bassel2:hasExample "يقال: داءٌ دَخِيل: دَخْل."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "دَخِيل"^^xsd:string .
+
+
+###  http://bassel.com/درقوع
+bassel:درقوع rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:دُرْقُوع ;
+             bassel2:hasExample "يقال: جوعٌ دُرْقُوع: شديد."^^xsd:string ;
+             bassel2:hasType "صفة"^^xsd:string ;
+             bassel2:hasVocalized "دُرْقُوع"^^xsd:string .
+
+
+###  http://bassel.com/درك
+bassel:درك rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:دَرَك ,
+                    bassel:دَرْك ;
+           bassel2:hasExample "وفي التَّنْزيل العزيز: {لاَ تَخَافُ دَرَكًا وَلاَ تَخْشَى}[طه:77]."^^xsd:string ,
+                              "يقال: بَلغَ الغَوَّاصُ دَرَك البحر."^^xsd:string ,
+                              "يقال: بَلغَ الغَوَّاصُ دَرْك البحر."^^xsd:string ;
+           bassel2:hasType "اسم مصدر"^^xsd:string ;
+           bassel2:hasVocalized "دَرَك"^^xsd:string ,
+                                "دَرْك"^^xsd:string .
+
+
+###  http://bassel.com/دوار
+bassel:دوار rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَوَّار ;
+            bassel2:hasExample "يقال: الدَّهْرُ دَوَّارٌ بالإِنسان: دائرٌ به."^^xsd:string ;
+            bassel2:hasType "صيغة مبالغة"^^xsd:string ;
+            bassel2:hasVocalized "دَوَّار"^^xsd:string .
+
+
+###  http://bassel.com/دور
+bassel:دور rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:دَوْر ;
+           bassel2:hasExample "يقال: انْفَسَخَ دَوْرُ عمامتِه."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "دَوْر"^^xsd:string .
+
+
+###  http://bassel.com/دورق
+bassel:دورق rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:دَوْرَق ;
+            bassel2:hasExample "يقال: فلانٌ دَوْرَق: متنسك."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "دَوْرَق"^^xsd:string .
+
+
+###  http://bassel.com/ذمامة
+bassel:ذمامة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:ذَمَامَة ;
+             bassel2:hasExample "وفي حديث موسى والخضر: \"أَخذتْه من صاحبه ذَمَامَةٌ\"."^^xsd:string ;
+             bassel2:hasType "اسم"^^xsd:string ;
+             bassel2:hasVocalized "ذَمَامَة"^^xsd:string .
+
+
+###  http://bassel.com/ذنب
+bassel:ذنب rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:ذَنَب ;
+           bassel2:hasExample "يقال: نظر إِليه بذَنَب عينه: أَي بمؤخرها."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "ذَنَب"^^xsd:string .
+
+
+###  http://bassel.com/ذنوب
+bassel:ذنوب rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:ذَنُوب ;
+            bassel2:hasExample "يقال: يومٌ ذَنُوب: طويل الشّر."^^xsd:string ;
+            bassel2:hasType "صيغة مبالغة"^^xsd:string ;
+            bassel2:hasVocalized "ذَنُوب"^^xsd:string .
+
+
+###  http://bassel.com/راحم
+bassel:راحم rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:رَاحِم ;
+            bassel2:hasExample "يقال: شاةٌ رَاحِم، وعنزٌ راحمٌ."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "رَاحِم"^^xsd:string .
+
+
+###  http://bassel.com/رثد
+bassel:رثد rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:رَثَد ;
+           bassel2:hasExample "يقال: تركنا على الماءِ رَثَدًا ما يطيقون تَحَمُّلاً."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "رَثَد"^^xsd:string .
+
+
+###  http://bassel.com/رثمة
+bassel:رثمة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:رَثْمَة ;
+            bassel2:hasExample "يقال: بَلَغَهُ رَثْمَةٌ من الخبر: طَرَفٌ منه."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "رَثْمَة"^^xsd:string .
+
+
+###  http://bassel.com/رحمة
+bassel:رحمة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:رَحْمَة ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {وَإِذَا أَذَقْنَا النَّاسَ رَحْمَةً مِنْ بَعْدِ ضَرَّاءَ مَسَّتْهُمْ}[يونس:21]."^^xsd:string ;
+            bassel2:hasType "مصدر"^^xsd:string ;
+            bassel2:hasVocalized "رَحْمَة"^^xsd:string .
+
+
+###  http://bassel.com/رحموت
+bassel:رحموت rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:رَحْمَة ;
+             bassel2:hasExample "يقال: \"رَهَبُوتٌ خيْرٌ لَكَ من رَحَمُوت\": أَي لأَنْ تُرْهَبَ خيْرٌ لَكَ من أَن تُرْحَمَ. ولم يستعمل إِلاَّ مزدوِجًا."^^xsd:string ;
+             bassel2:hasType "مصدر"^^xsd:string ;
+             bassel2:hasVocalized "رَحَمُوت"^^xsd:string .
+
+
+###  http://bassel.com/رعة
+bassel:رعة rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:رِعَة ;
+           bassel2:hasExample "يُقال: هو حَسَن الرِّعة."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "رِعَة"^^xsd:string .
+
+
+###  http://bassel.com/رفاء
+bassel:رفاء rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:رِفَاء ;
+            bassel2:hasExample "يقال للمتزوج: بالرِّفاء والبنين: بالوفاق والوئام والخَلَفِ الصَّالح."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "رِفَاء"^^xsd:string .
+
+
+###  http://bassel.com/رفة
+bassel:رفة rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:رُفَة ;
+           bassel2:hasExample "وفي المثل: \"أَغنى من التُّفَةِ عن الرُّفة\": يضرب للئيم إِذا شبع."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "رُفَة"^^xsd:string .
+
+
+###  http://bassel.com/رفش
+bassel:رفش rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:رَفْش ;
+           bassel2:hasExample "يقال: وَقع في الرَّفْش والقَفْش: الأَكل ومباشرة النساء."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "رَفْش"^^xsd:string .
+
+
+###  http://bassel.com/رفهنية
+bassel:رفهنية rdf:type owl:NamedIndividual ,
+                       bassel:اسم ,
+                       bassel:رُفَهْنِيَة ;
+              bassel2:hasExample "يقال: هو في رُفَهْنِيَةٍ من العيش."^^xsd:string ;
+              bassel2:hasType "اسم"^^xsd:string ;
+              bassel2:hasVocalized "رُفَهْنِيَة"^^xsd:string .
+
+
+###  http://bassel.com/رقوء
+bassel:رقوء rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:رَقُوء ;
+            bassel2:hasExample "يقال: سَكَن النَّزْفُ بالرَّقوء."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "رَقُوء"^^xsd:string .
+
+
+###  http://bassel.com/عذاة
+bassel:عذاة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:عَذَاة ;
+            bassel2:hasExample "قال حُذيفة لرجُل: \"إِن كنت لا بُدَّ نازِلاً بالبصرةِ فانزل عَذَواتِها ولا تَنْزل سُرَّتَها\"."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "عَذَاة"^^xsd:string .
+
+
+###  http://bassel.com/عذل
+bassel:عذل rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:عَذَل ;
+           bassel2:hasExample "وفي المثل: \"سَبَقَ السَّيْفُ العَذَل\": يُضْرَبُ لِما قَدْ فَات ولا يُسْتَدْرَك."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "عَذَل"^^xsd:string .
+
+
+###  http://bassel.com/فطرة
+bassel:فطرة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:فِطْرَة ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {فِطْرَةَ اللهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا لاَ تَبْدِيلَ لِخَلْقِ اللهِ} [الروم:30]."^^xsd:string ;
+            bassel2:hasType "مصدر هيئة"^^xsd:string ;
+            bassel2:hasVocalized "فِطْرَة"^^xsd:string .
+
+
+###  http://bassel.com/مدرى
+bassel:مدرى rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:مِدْرَى ;
+            bassel2:hasExample "يقال: نَطَحَهُ الثَّوْرُ بالمِدْرَى: بالقرن المحدَّد."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "مِدْرَى"^^xsd:string .
+
+
+###  http://bassel.com/مذمر
+bassel:مذمر rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:مُذَمَّر ;
+            bassel2:hasExample "يقال: بَلَغَ الأَمرُ المُذَمَّر: اشتدّ."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "مُذَمَّر"^^xsd:string .
+
+
+###  http://bassel.com/مرسن
+bassel:مرسن rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:مَرْسَن ;
+            bassel2:hasExample "يقال: سَلِسَ مَرْسَنُه: سَلِسَ قيادُهُ."^^xsd:string ,
+                               "يقال: فَعَلت ذلك على رغم مَرْسَنِه."^^xsd:string ,
+                               "يقال: فَعَلت ذلك على رغم مَرْسِنِه."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "مَرْسَن"^^xsd:string .
+
+
+###  http://bassel.com/موعد
+bassel:موعد rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:مَوْعِد ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {فَأَخْلَفْتُمْ مَوْعِدِي}[طه:86]؛ أَي: عَهْدِي."^^xsd:string ;
+            bassel2:hasType "اسم مكان"^^xsd:string ;
+            bassel2:hasVocalized "مَوْعِد"^^xsd:string .
+
+
+###  http://bassel.com/موعدة
+bassel:موعدة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:مَوْعِدَة ;
+             bassel2:hasExample "وفي التَّنْزيل العزيز: {وَمَا كَانَ اسْتِغْفَارُ إِبْرَاهِيمَ لأَبِيهِ إِلاَّ عَنْ مَوْعِدَةٍ وَعَدَهَا إِيَّاهُ}[التوبة:114]."^^xsd:string ;
+             bassel2:hasType "مصدر"^^xsd:string ;
+             bassel2:hasVocalized "مَوْعِدَة"^^xsd:string .
+
+
+###  http://bassel.com/موقر
+bassel:موقر rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:مُوْقَر ;
+            bassel2:hasExample "يُقال: نَخْلَةٌ مُوقَرٌ: كثيرة الحمل."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "مُوْقَر"^^xsd:string .
+
+
+###  http://bassel.com/ميسرة
+bassel:ميسرة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:مَيْسَرَة ;
+             bassel2:hasExample "يُقال: مَيْسَرَةُ الجيش."^^xsd:string ,
+                                "يُقال: وَلاَّهُ مَيَاسِرَه."^^xsd:string ;
+             bassel2:hasType "مصدر"^^xsd:string ;
+             bassel2:hasVocalized "مَيْسَرَة"^^xsd:string .
+
+
+###  http://bassel.com/ميسور
+bassel:ميسور rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:مَيْسُور ;
+             bassel2:hasExample "يُقال: خُذ بميسورِه ودَعْ مَعْسُورَه."^^xsd:string ;
+             bassel2:hasType "مصدر"^^xsd:string ;
+             bassel2:hasVocalized "مَيْسُور"^^xsd:string .
+
+
+###  http://bassel.com/وادك
+bassel:وادك rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَادِك ;
+            bassel2:hasExample "يُقال: رَجُلٌ وادِك."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَادِك"^^xsd:string .
+
+
+###  http://bassel.com/وارد
+bassel:وارد rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَارِد ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {فَأَرْسَلُوا وَارِدَهُمْ}[يوسف:19]."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَارِد"^^xsd:string .
+
+
+###  http://bassel.com/واعر
+bassel:واعر rdf:type owl:NamedIndividual ,
+                     bassel:أَوْعَر ,
+                     bassel:اسم ;
+            bassel2:hasExample "يُقال: جَبَلٌ وَاعِر."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "وَاعِر"^^xsd:string .
+
+
+###  http://bassel.com/وافل
+bassel:وافل rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَافِل ;
+            bassel2:hasExample "يُقال: قَصَبٌ وافِل."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَافِل"^^xsd:string .
+
+
+###  http://bassel.com/وافية
+bassel:وافية rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:وَافِيَة ;
+             bassel2:hasExample "يُقال: وَزَنَ له بالوافِية."^^xsd:string ;
+             bassel2:hasType "اسم"^^xsd:string ;
+             bassel2:hasVocalized "وَافِيَة"^^xsd:string .
+
+
+###  http://bassel.com/ودفة
+bassel:ودفة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَدَفَة ;
+            bassel2:hasExample "يُقال: أَصْبَحت الأَرضُ كلُّها وَدَفةً واحدةً خِصبًا: إِذا اخضرَّت كلُّها."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَدَفَة"^^xsd:string .
+
+
+###  http://bassel.com/وديك
+bassel:وديك rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَدِيك ;
+            bassel2:hasExample "يُقال: أَكَلَ دِيكًا وَدِيكًا: سَمينًا."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَدِيك"^^xsd:string .
+
+
+###  http://bassel.com/وذأة
+bassel:وذأة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَذْأَة ;
+            bassel2:hasExample "يُقال: ما بِه وَذْأَةٌ: لا عِلَّةَ به."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَذْأَة"^^xsd:string .
+
+
+###  http://bassel.com/وذرة
+bassel:وذرة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَذِرَة ;
+            bassel2:hasExample "يُقال: عَضَدٌ وَذِرَة."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "وَذِرَة"^^xsd:string .
+
+
+###  http://bassel.com/وذماء
+bassel:وذماء rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:وَذْمَاء ;
+             bassel2:hasExample "يُقال: امرأَةٌ وَذْمَاء، وفَرَسٌ وَذْمَاء."^^xsd:string ;
+             bassel2:hasType "صفة"^^xsd:string ;
+             bassel2:hasVocalized "وَذْمَاء"^^xsd:string .
+
+
+###  http://bassel.com/وذية
+bassel:وذية rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَذِيَّة ;
+            bassel2:hasExample "يُقال: دُنيا وَذِيَّة."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَذِيَّة"^^xsd:string .
+
+
+###  http://bassel.com/وراء
+bassel:وراء rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرَاء ;
+            bassel2:hasExample "وتكون وراء بمعنى سِوى نحو قوله تَعَالى: {فَمَنِ ابْتَغَى وَرَاءَ ذَلِكَ}[المؤمنون:7] أَي: سِوى ذلك."^^xsd:string ,
+                               "وفي التَّنْزيل العزيز: {مِنْ وَرَائِهِ جَهَنَّمُ}[إبراهيم:16]: أَمامَه وقُدَّامه."^^xsd:string ,
+                               "ويقع ظَرفًا، قال تَعَالى: {وَكَانَ وَرَاءَهُمْ مَلِكٌ يَأْخُذُ كُلَّ سَفِينةٍ غَصْبًا}[الكهف:79]: أَي أَمامهم."^^xsd:string ,
+                               "يُقال: هو وراءَك لما استتر عنك، سواء أَكان خَلْفًا أَم قُدَّامًا."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَرَاء"^^xsd:string .
+
+
+###  http://bassel.com/وراق
+bassel:وراق rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرَاق ;
+            bassel2:hasExample "يُقال: ما أَحسَنَ وَرَاقَه: لِبْستَه وشَارَتَه."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَرَاق"^^xsd:string .
+
+
+###  http://bassel.com/ورد
+bassel:ورد rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وِرْد ;
+           bassel2:hasExample "يُقال: قَرَأْتُ وِرْدِي."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وِرْد"^^xsd:string .
+
+
+###  http://bassel.com/ورطة
+bassel:ورطة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرْطَة ;
+            bassel2:hasExample "يُقال: وَقَعَ فلانٌ في وَرْطَةٍ عَظِيمة."^^xsd:string ;
+            bassel2:hasType "مصدر مرة"^^xsd:string ;
+            bassel2:hasVocalized "وَرْطَة"^^xsd:string .
+
+
+###  http://bassel.com/ورقة
+bassel:ورقة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرَقَة ,
+                     bassel:وَرْقَة ;
+            bassel2:hasExample "يُقال: في القوس وَرْقة."^^xsd:string ,
+                               "يُقال: هو وَرَقَةٌ، وهي وَرَقَةٌ، إِذا كانا ضَعيفين خَسِيسين."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَرَقَة"^^xsd:string ,
+                                 "وَرْقَة"^^xsd:string .
+
+
+###  http://bassel.com/وريد
+bassel:وريد rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرِيد ;
+            bassel2:hasExample "وفي التَّنْزيل العزيز: {وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الوَرِيد}[ق:16]."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَرِيد"^^xsd:string .
+
+
+###  http://bassel.com/وريس
+bassel:وريس rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَرِيس ;
+            bassel2:hasExample "يُقال: ثَوبٌ وَرِيسٌ. ومِلْحَفَةٌ وَرِيسَة."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "وَرِيس"^^xsd:string .
+
+
+###  http://bassel.com/وشل
+bassel:وشل rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وَشَل ;
+           bassel2:hasExample "يُقال: ما أَصَاب إِلاَّ وَشَلاً من الدّنيا."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وَشَل"^^xsd:string .
+
+
+###  http://bassel.com/وصم
+bassel:وصم rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وَصْم ;
+           bassel2:hasExample "يُقال: قَناةٌ فيها وَصْمٌ: صَدْعٌ في أُنبوبها."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وَصْم"^^xsd:string .
+
+
+###  http://bassel.com/وعثاء
+bassel:وعثاء rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:وَعْثَاء ;
+             bassel2:hasExample "يُقال: أَعوذُ بالله من وَعْثَاء السَّفر."^^xsd:string ;
+             bassel2:hasType "صفة"^^xsd:string ;
+             bassel2:hasVocalized "وَعْثَاء"^^xsd:string .
+
+
+###  http://bassel.com/وعثة
+bassel:وعثة rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:وَعْثَة ;
+            bassel2:hasExample "يُقال: امرأَةٌ وَعْثَةُ الأَرداف."^^xsd:string ;
+            bassel2:hasType "صفة"^^xsd:string ;
+            bassel2:hasVocalized "وَعْثَة"^^xsd:string .
+
+
+###  http://bassel.com/وعد
+bassel:وعد rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وَعْد ;
+           bassel2:hasExample "قالَ البُحْتُرِيُّ:   أَنْتَ الكَريمُ وَقَد قَدَّمْتَ مُبْتَدِئًا   وَعْدًا وَكُلُّ كريمٍ عِنْدَ مَوْعِدِهِ."^^xsd:string ;
+           bassel2:hasType "مصدر"^^xsd:string ;
+           bassel2:hasVocalized "وَعْد"^^xsd:string .
+
+
+###  http://bassel.com/وعر
+bassel:وعر rdf:type owl:NamedIndividual ,
+                    bassel:أَوْعَر ,
+                    bassel:اسم ;
+           bassel2:hasExample "يُقال: مَكانٌ وَعْرٌ، وطَرِيقٌ وَعْرٌ، ومَطْلَبٌ وَعْرٌ."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وَعْر"^^xsd:string .
+
+
+###  http://bassel.com/وعساء
+bassel:وعساء rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:وَعْسَاء ;
+             bassel2:hasExample "يُقال: مَشَى في الوَعْسَاء."^^xsd:string ;
+             bassel2:hasType "صفة"^^xsd:string ;
+             bassel2:hasVocalized "وَعْسَاء"^^xsd:string .
+
+
+###  http://bassel.com/وقش
+bassel:وقش rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وَقْش ;
+           bassel2:hasExample "يُقال: سَمِعتُ وَقْشَهُ."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وَقْش"^^xsd:string .
+
+
+###  http://bassel.com/وكد
+bassel:وكد rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:وُكْد ;
+           bassel2:hasExample "يُقال: مازال ذلك وُكْدِي: فِعْلي."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "وُكْد"^^xsd:string .
+
+
+###  http://bassel.com/وليجة
+bassel:وليجة rdf:type owl:NamedIndividual ,
+                      bassel:اسم ,
+                      bassel:وَلِيجَة ;
+             bassel2:hasExample "يُقال: هو وَلِيجَتُكُم: لصيقٌ بكم."^^xsd:string ;
+             bassel2:hasType "اسم"^^xsd:string ;
+             bassel2:hasVocalized "وَلِيجَة"^^xsd:string .
+
+
+###  http://bassel.com/يسار
+bassel:يسار rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:يَسَار ;
+            bassel2:hasExample "يُقال: قَعَدَ يمينًا أَو يسارًا، أَو عن اليمين أَو عن اليَسَار."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "يَسَار"^^xsd:string .
+
+
+###  http://bassel.com/يسير
+bassel:يسير rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:يَسِير ;
+            bassel2:hasExample "يُقال: شَيءٌ يَسِيرٌ."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "يَسِير"^^xsd:string .
+
+
+###  http://bassel.com/يعار
+bassel:يعار rdf:type owl:NamedIndividual ,
+                     bassel:اسم ,
+                     bassel:يُعَار ;
+            bassel2:hasExample "يُقال: للشاةِ يُعَار."^^xsd:string ;
+            bassel2:hasType "اسم"^^xsd:string ;
+            bassel2:hasVocalized "يُعَار"^^xsd:string .
+
+
+###  http://bassel.com/يوم
+bassel:يوم rdf:type owl:NamedIndividual ,
+                    bassel:اسم ,
+                    bassel:يَوْم ;
+           bassel2:hasExample "وفي التَّنْزيل العزيز: {الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ}[المائدة:3]."^^xsd:string ;
+           bassel2:hasType "اسم"^^xsd:string ;
+           bassel2:hasVocalized "يَوْم"^^xsd:string .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+bassel:ورد rdfs:comment "ورد"@ar .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

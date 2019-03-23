@@ -1,0 +1,1450 @@
+@prefix : <http://klkl#> .
+@prefix أ: <http://klklوَذْأَ> .
+@prefix ث: <http://klklرَثَ> .
+@prefix ج: <http://klklدَجْ> .
+@prefix ح: <http://klklدِحَ> .
+@prefix خ: <http://klklدَخِ> .
+@prefix د: <http://klklوَدِ> .
+@prefix ذ: <http://klklعَذَ> .
+@prefix ر: <http://klklوَرِ> .
+@prefix س: <http://klklمَرْسَ> .
+@prefix ش: <http://klklوَشَ> .
+@prefix ص: <http://klklوَصْ> .
+@prefix ض: <http://klklدَاحِضَ> .
+@prefix ط: <http://klklوَرْطَ> .
+@prefix ع: <http://klklوَعْ> .
+@prefix ف: <http://klklرُفَ> .
+@prefix ق: <http://klklأَوْقَ> .
+@prefix ك: <http://klklوُكْ> .
+@prefix ل: <http://klklدِخْلَ> .
+@prefix م: <http://klklمُذَمَّ> .
+@prefix ن: <http://klklذَنَ> .
+@prefix و: <http://klklدَوْ> .
+@prefix ي: <http://klklوَذِيَّ> .
+@prefix اح: <http://klklرَاحِ> .
+@prefix اد: <http://klklوَادِ> .
+@prefix ار: <http://klklوَارِ> .
+@prefix اف: <http://klklوَافِ> .
+@prefix ام: <http://klklذَمَامَ> .
+@prefix ث2: <http://klklوَعْثَ> .
+@prefix خ2: <http://klklدَخَّ> .
+@prefix خ3: <http://klklدِخَ> .
+@prefix د2: <http://klklمَوْعِدَ> .
+@prefix ر2: <http://klklوِرْ> .
+@prefix ر3: <http://klklوَرَ> .
+@prefix ر4: <http://klklدَرْ> .
+@prefix ر5: <http://klklفِطْرَ> .
+@prefix ر6: <http://klklوَذِرَ> .
+@prefix ر7: <http://klklمِدْرَ> .
+@prefix ر8: <http://klklدَرَ> .
+@prefix ر9: <http://klklدَوْرَ> .
+@prefix س2: <http://klklمَيْسُ> .
+@prefix س3: <http://klklيَسَ> .
+@prefix س4: <http://klklوَعْسَ> .
+@prefix س5: <http://klklيَسِ> .
+@prefix ع2: <http://klklمَوْعِ> .
+@prefix ع3: <http://klklأَوْعَ> .
+@prefix ع4: <http://klklرِعَ> .
+@prefix ع5: <http://klklيُعَ> .
+@prefix ف2: <http://klklوَدَفَ> .
+@prefix ف3: <http://klklرَفْ> .
+@prefix ف4: <http://klklأَوْفَ> .
+@prefix ف5: <http://klklرِفَ> .
+@prefix ق2: <http://klklدُرْقُ> .
+@prefix ق3: <http://klklرَقُ> .
+@prefix ق4: <http://klklوَرَقَ> .
+@prefix ق5: <http://klklخَلِقَ> .
+@prefix ق6: <http://klklمُوْقَ> .
+@prefix ق7: <http://klklوَرْقَ> .
+@prefix ق8: <http://klklوَقْ> .
+@prefix ق9: <http://klklخِلْقَ> .
+@prefix ك2: <http://klklأَوْكَ> .
+@prefix ل2: <http://klklخَلَ> .
+@prefix ل3: <http://klklخُلاَلَ> .
+@prefix لا: <http://klklخِلاَ> .
+@prefix م2: <http://klklخِمَ> .
+@prefix م3: <http://klklرَحْمَ> .
+@prefix م4: <http://klklوَذْمَ> .
+@prefix م5: <http://klklرَثْمَ> .
+@prefix م6: <http://klklخُمَ> .
+@prefix م7: <http://klklدُجْمَ> .
+@prefix م8: <http://klklخَمْ> .
+@prefix ن2: <http://klklذَنُ> .
+@prefix و2: <http://klklيَوْ> .
+@prefix و3: <http://klklدَوَّ> .
+@prefix ي2: <http://klklرُفَهْنِيَ> .
+@prefix ي3: <http://klklوَافِيَ> .
+@prefix يج: <http://klklوَلِيجَ> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix اح2: <http://klklدَاحِ> .
+@prefix ر10: <http://klklمَيْسَرَ> .
+@prefix http: <http://> .
+@prefix klkl: <http://klkl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://klkl> .
+
+<http://klkl> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://klkl#hasExample
+klkl:hasExample rdf:type owl:DatatypeProperty .
+
+
+###  http://klkl#hasType
+klkl:hasType rdf:type owl:DatatypeProperty .
+
+
+###  http://klkl#hasVocalized
+klkl:hasVocalized rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://klklأداة
+http:klklأداة rdf:type owl:Class ;
+              rdfs:subClassOf http:klklكلمة ;
+              rdfs:comment "أداة"@ar .
+
+
+###  http://klklأَوْعَر
+http:klklأَوْعَر rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الصَّعب."@ar .
+
+
+###  http://klklأَوْفَى
+http:klklأَوْفَى rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الأَتَمُّ."@ar .
+
+
+###  http://klklأَوْقَاص
+http:klklأَوْقَاص rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "الزَّعانِف من النَّاس."@ar ,
+                               "المتفرِّقون."@ar .
+
+
+###  http://klklأَوْكَس
+http:klklأَوْكَس rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الأَنْقَص."@ar .
+
+
+###  http://klklاسم
+http:klklاسم rdf:type owl:Class ;
+             rdfs:subClassOf http:klklكلمة ;
+             rdfs:comment "اسم"@ar .
+
+
+###  http://klklخالفة
+http:klklخالفة rdf:type owl:Class ;
+               rdfs:subClassOf http:klklكلمة ;
+               rdfs:comment "خالفة"@ar .
+
+
+###  http://klklخَلَل
+http:klklخَلَل rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الفسادُ والضَّعْفُ."@ar ,
+                            "مُنْفَرَج ما بين كلّ شيئين."@ar .
+
+
+###  http://klklخَلِقَة
+http:klklخَلِقَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "السَّحَابة المُسْتَوِيَة  المُخِيلَة للمطر."@ar .
+
+
+###  http://klklخَمْر
+http:klklخَمْر rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "العِنَب."@ar ,
+                            "ما أَسكر من الشَّرَاب وعصير العنب ونحْوِه، لأَنها تغطِّي العَقْلَ. (وهي مُؤَنَّثَة وقد تذكَّر)."@ar .
+
+
+###  http://klklخُلاَلَة
+http:klklخُلاَلَة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "ما يُلْقَى من بقيَّة الطَّعَام عِنْد التَّخلُّل."@ar .
+
+
+###  http://klklخُمَار
+http:klklخُمَار rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "من النَّاس: جماعتهم وكَثرتهم."@ar .
+
+
+###  http://klklخِلاَل
+http:klklخِلاَل rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "المُخَالّة."@ar .
+
+
+###  http://klklخِلْقَة
+http:klklخِلْقَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الفِطْرَة."@ar .
+
+
+###  http://klklخِمَار
+http:klklخِمَار rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "العِمامة: لأَن الرَّجُل يغطِّي بها رأْسَه ويُديرها تحت الحنك."@ar .
+
+
+###  http://klklدَاحِض
+http:klklدَاحِض rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "من لا ثباتَ له ولا عزيمة في الأُمور."@ar .
+
+
+###  http://klklدَاحِضَة
+http:klklدَاحِضَة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "من الحجج: الباطلة."@ar .
+
+
+###  http://klklدَارِيّ
+http:klklدَارِيّ rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "العَطَّار. (نسبة إِلى دارِين)."@ar .
+
+
+###  http://klklدَجْم
+http:klklدَجْم rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الضَّرْبُ والنَّوْعُ."@ar .
+
+
+###  http://klklدَجْن
+http:klklدَجْن rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "إِلباسُ الغيم الأَرْضَ وأَقطار السَّمَاء."@ar .
+
+
+###  http://klklدَخِيل
+http:klklدَخِيل rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الأَجنبيُّ الذي يدخل وطن غيره ليستغلَّ."@ar .
+
+
+###  http://klklدَخَّال
+http:klklدَخَّال rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "من الرِّجَال: الكثير التَّصرف في الأُمور."@ar .
+
+
+###  http://klklدَرَك
+http:klklدَرَك rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "اسم مصدر من الإِدراك."@ar .
+
+
+###  http://klklدَرْك
+http:klklدَرْك rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "أَسفل كل شيءٍ ذي عُمْق، كالبئر ونحوها."@ar .
+
+
+###  http://klklدَوَّار
+http:klklدَوَّار rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الكثير الدَّوَران."@ar .
+
+
+###  http://klklدَوْر
+http:klklدَوْر rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الطَّبَقَة من الشَّيْءِ المُدار بعضُه فوق بعضِه."@ar .
+
+
+###  http://klklدَوْرَق
+http:klklدَوْرَق rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "قلنسوة كان يلبسها المتنسِّكون قديمًا."@ar .
+
+
+###  http://klklدُجْمَة
+http:klklدُجْمَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الظُّلْمَة."@ar .
+
+
+###  http://klklدُرْقُوع
+http:klklدُرْقُوع rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "الجوع الشَّديد."@ar .
+
+
+###  http://klklدِثَارِيّ
+http:klklدِثَارِيّ rdf:type owl:Class ;
+                   rdfs:subClassOf http:klklمفهوم ;
+                   rdfs:comment "من الرِّجَال: الكسلان."@ar .
+
+
+###  http://klklدِحَاس
+http:klklدِحَاس rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الامتلاء والازدحام."@ar .
+
+
+###  http://klklدِخَال
+http:klklدِخَال rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "في الوِرْدِ: أَن يُدْخِلَ بعيراً قد شرب بين بعيريْن ناهليْن."@ar .
+
+
+###  http://klklدِخْلَة
+http:klklدِخْلَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "من الإِنْسَان: داخلته."@ar .
+
+
+###  http://klklذَمَامَة
+http:klklذَمَامَة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "الحياء والإِشفاق من الذَّم واللوم."@ar .
+
+
+###  http://klklذَنَب
+http:klklذَنَب rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "مِنْ كُلِّ شَيْءٍٍ: آخره."@ar .
+
+
+###  http://klklذَنُوب
+http:klklذَنُوب rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "من الأَيام: طويل الشَّرّ."@ar .
+
+
+###  http://klklرَاحِم
+http:klklرَاحِم rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الشَّاة الوارمة الرَّحِم."@ar .
+
+
+###  http://klklرَثَد
+http:klklرَثَد rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "ضَعَفَةُ النَّاس."@ar .
+
+
+###  http://klklرَثْمَة
+http:klklرَثْمَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الطَرَف من الخَبر."@ar .
+
+
+###  http://klklرَحْمَة
+http:klklرَحْمَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الخير والنِّعمة."@ar .
+
+
+###  http://klklرَفْش
+http:klklرَفْش rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الأَكل الجيِّد والشُّرْب في النَّعمة والأَمن."@ar .
+
+
+###  http://klklرَقُوء
+http:klklرَقُوء rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "ما يوضع على الدَّمِ ونحوه ليُرقِئه ويُسْكِنَه."@ar .
+
+
+###  http://klklرُفَة
+http:klklرُفَة rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "التِّبن."@ar .
+
+
+###  http://klklرُفَهْنِيَة
+http:klklرُفَهْنِيَة rdf:type owl:Class ;
+                     rdfs:subClassOf http:klklمفهوم ;
+                     rdfs:comment "رَغَدُ العَيْش، وسَعَةُ الرِّزْق والخِصْب والنَّعيم."@ar .
+
+
+###  http://klklرِعَة
+http:klklرِعَة rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الأَدب."@ar .
+
+
+###  http://klklرِفَاء
+http:klklرِفَاء rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الوفاق والوئام والخَلَف الصَّالِح. (وانظر: رفء)"@ar .
+
+
+###  http://klklصفة
+http:klklصفة rdf:type owl:Class ;
+             rdfs:subClassOf http:klklكلمة ;
+             rdfs:comment "صفة"@ar .
+
+
+###  http://klklظرف
+http:klklظرف rdf:type owl:Class ;
+             rdfs:subClassOf http:klklكلمة ;
+             rdfs:comment "ظرف"@ar .
+
+
+###  http://klklعَذَاة
+http:klklعَذَاة rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الأَرْض البعيدة من الماءِ والوَخَمِ والوَبَاء."@ar .
+
+
+###  http://klklعَذَل
+http:klklعَذَل rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "المَلاَمة."@ar .
+
+
+###  http://klklفعل
+http:klklفعل rdf:type owl:Class ;
+             rdfs:subClassOf http:klklكلمة ;
+             rdfs:comment "فعل"@ar .
+
+
+###  http://klklفِطْرَة
+http:klklفِطْرَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الطَّبيعة السَّليمة التي لم تُشَبْ بِعَيب."@ar .
+
+
+###  http://klklكلمة
+http:klklكلمة rdf:type owl:Class ;
+              rdfs:comment "كلمة"@ar .
+
+
+###  http://klklمفهوم
+http:klklمفهوم rdf:type owl:Class ;
+               rdfs:comment "مفهوم"@ar .
+
+
+###  http://klklمَرْسَن
+http:klklمَرْسَن rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الأَنْف."@ar .
+
+
+###  http://klklمَوْعِد
+http:klklمَوْعِد rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "العَهْد."@ar .
+
+
+###  http://klklمَوْعِدَة
+http:klklمَوْعِدَة rdf:type owl:Class ;
+                   rdfs:subClassOf http:klklمفهوم ;
+                   rdfs:comment "الوَعْد."@ar .
+
+
+###  http://klklمَيْسَرَة
+http:klklمَيْسَرَة rdf:type owl:Class ;
+                   rdfs:subClassOf http:klklمفهوم ;
+                   rdfs:comment "خِلافُ الميمنة، أَو الجهة اليسرى."@ar .
+
+
+###  http://klklمَيْسُور
+http:klklمَيْسُور rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "اليُسْر: وهو ضدّ المعسور. وهو مصدرٌ على وزن مفعول."@ar .
+
+
+###  http://klklمُذَمَّر
+http:klklمُذَمَّر rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "الكاهِل والعُنُق وما حَوْلَه إِلى الذِّفْرَي."@ar .
+
+
+###  http://klklمُوْقَر
+http:klklمُوْقَر rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "من النَّخل: الكثيرةُ الحمل."@ar .
+
+
+###  http://klklمِدْرَى
+http:klklمِدْرَى rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "القرن."@ar .
+
+
+###  http://klklوَادِك
+http:klklوَادِك rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "السَّمين ذو الوَدَك."@ar .
+
+
+###  http://klklوَارِد
+http:klklوَارِد rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "السَّابِق."@ar .
+
+
+###  http://klklوَافِل
+http:klklوَافِل rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "البالغ، أَو الوافِر من القَصَب."@ar .
+
+
+###  http://klklوَافِيَة
+http:klklوَافِيَة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "السِّنجَةُ التَّامة."@ar .
+
+
+###  http://klklوَدَفَة
+http:klklوَدَفَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الرَّوضَة الخضراء."@ar .
+
+
+###  http://klklوَدِيك
+http:klklوَدِيك rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "السَّمين."@ar .
+
+
+###  http://klklوَذِرَة
+http:klklوَذِرَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الكثير الوَذْر."@ar .
+
+
+###  http://klklوَذِيَّة
+http:klklوَذِيَّة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "الحقيرة."@ar .
+
+
+###  http://klklوَذْأَة
+http:klklوَذْأَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "العِلَّة."@ar .
+
+
+###  http://klklوَذْمَاء
+http:klklوَذْمَاء rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "العَاقِر."@ar .
+
+
+###  http://klklوَرَاء
+http:klklوَرَاء rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "تكون خَلفًا وتكون قُدَّامًا. (ضدّ)."@ar .
+
+
+###  http://klklوَرَاق
+http:klklوَرَاق rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "خُضرةُ الأَرْض من الحشيش وليس من الورق."@ar .
+
+
+###  http://klklوَرَقَة
+http:klklوَرَقَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "الخسيسُ مِنَ الرِّجَال."@ar .
+
+
+###  http://klklوَرِيد
+http:klklوَرِيد rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "مَثَلٌ في شِدَّةِ القُرْب."@ar .
+
+
+###  http://klklوَرِيس
+http:klklوَرِيس rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "المصبوغ بالوَرْس."@ar .
+
+
+###  http://klklوَرْطَة
+http:klklوَرْطَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "كلّ أَمْرٍ تَعْسُر النَّجاة منه."@ar .
+
+
+###  http://klklوَرْقَة
+http:klklوَرْقَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "في القَوْس: العَيْب."@ar .
+
+
+###  http://klklوَشَل
+http:klklوَشَل rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الماء القليل يتحلَّب من جبل أَو صخرة ولا يتَّصل قَطرُه."@ar .
+
+
+###  http://klklوَصْم
+http:klklوَصْم rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الصَّدْع."@ar .
+
+
+###  http://klklوَعْثَاء
+http:klklوَعْثَاء rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "المَشَقَّة والتَّعب."@ar .
+
+
+###  http://klklوَعْثَة
+http:klklوَعْثَة rdf:type owl:Class ;
+                 rdfs:subClassOf http:klklمفهوم ;
+                 rdfs:comment "من النِّساء: السَّمينة."@ar .
+
+
+###  http://klklوَعْد
+http:klklوَعْد rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "ما يَلْتَزِمُ الإِنْسَانُ بإِنجازِه لغيره من قَولٍ أَو فِعْل."@ar .
+
+
+###  http://klklوَعْسَاء
+http:klklوَعْسَاء rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "السَّهل اللَّيِّن من الرَّمْلِ تَغيبُ فيه الأَرجل."@ar .
+
+
+###  http://klklوَقْش
+http:klklوَقْش rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الحِسّ."@ar .
+
+
+###  http://klklوَلِيجَة
+http:klklوَلِيجَة rdf:type owl:Class ;
+                  rdfs:subClassOf http:klklمفهوم ;
+                  rdfs:comment "مَن تتَّخذه معتمدًا عليه من غير أَهلك."@ar .
+
+
+###  http://klklوُكْد
+http:klklوُكْد rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "السَّعي والجُهد."@ar .
+
+
+###  http://klklوِرْد
+http:klklوِرْد rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "النَّصِيبُ من القرآن أَو الذِّكر."@ar .
+
+
+###  http://klklيَسَار
+http:klklيَسَار rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "خِلاف اليَمِين، وهو الجهة اليُسرى."@ar .
+
+
+###  http://klklيَسِير
+http:klklيَسِير rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الهَيِّن."@ar .
+
+
+###  http://klklيَوْم
+http:klklيَوْم rdf:type owl:Class ;
+               rdfs:subClassOf http:klklمفهوم ;
+               rdfs:comment "الوقت الحاضِر؛ أَي: وَقْتُ التَّكَلُّمِ."@ar .
+
+
+###  http://klklيُعَار
+http:klklيُعَار rdf:type owl:Class ;
+                rdfs:subClassOf http:klklمفهوم ;
+                rdfs:comment "الشَّديد من أَصوات الشَّاة."@ar .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://klklأوعر
+http:klklأوعر rdf:type owl:NamedIndividual ,
+                       http:klklأَوْعَر ,
+                       http:klklاسم ;
+              klkl:hasExample "يُقال: طَريقٌ أَوْعَر."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "أَوْعَر"^^xsd:string .
+
+
+###  http://klklأوفى
+http:klklأوفى rdf:type owl:NamedIndividual ,
+                       http:klklأَوْفَى ,
+                       http:klklاسم ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {وَأَنَّ سَعْيَهُ سَوْفَ يُرَى ثُمَّ يُجْزَاهُ الجَزاءَ الأَوْفَى} [النجم:41]."^^xsd:string ;
+              klkl:hasType "اسم تفضيل"^^xsd:string ;
+              klkl:hasVocalized "أَوْفَى"^^xsd:string .
+
+
+###  http://klklأوقاص
+http:klklأوقاص rdf:type owl:NamedIndividual ,
+                        http:klklأَوْقَاص ,
+                        http:klklاسم ;
+               klkl:hasExample "يُقال: أَتانا أَوقاصٌ من بني فلان."^^xsd:string ,
+                               "يُقال: صَاروا أَوْقَاصًا."^^xsd:string ;
+               klkl:hasType "جمع"^^xsd:string ;
+               klkl:hasVocalized "أَوْقَاص"^^xsd:string .
+
+
+###  http://klklأوكس
+http:klklأوكس rdf:type owl:NamedIndividual ,
+                       http:klklأَوْكَس ,
+                       http:klklاسم ;
+              klkl:hasExample "يُقال: أَوْكَسُ الثَّمَنَيْنِ: أَنْقَصُهُما."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "أَوْكَس"^^xsd:string .
+
+
+###  http://klklخلال
+http:klklخلال rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklخِلاَل ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {لاَ بَيْعٌ فِيهِ وَلاَ خِلاَلٌ}[إبراهيم:31]."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "خِلاَل"^^xsd:string .
+
+
+###  http://klklخلالة
+http:klklخلالة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklخُلاَلَة ;
+               klkl:hasExample "يقال: فلانٌ يأْكل خُلالَتَه: إِذا كان بخيلاً."^^xsd:string ;
+               klkl:hasType "مصدر"^^xsd:string ;
+               klkl:hasVocalized "خُلاَلَة"^^xsd:string .
+
+
+###  http://klklخلقة
+http:klklخلقة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklخَلِقَة ,
+                       http:klklخِلْقَة ;
+              klkl:hasExample "يقال: سَحَابَةٌ خَلِقَةٌ."^^xsd:string ,
+                              "يقال: عَيْبٌ خِلْقِيّ: موجودٌ من أَصل الخِلْقَة، وليس بعارض."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "خَلِقَة"^^xsd:string ,
+                                "خِلْقَة"^^xsd:string .
+
+
+###  http://klklخلل
+http:klklخلل rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklخَلَل ;
+             klkl:hasExample "يقال: جَاسَ خَلَلَ الدِّيار: سار وتردَّدَ بينَها."^^xsd:string ,
+                             "يقال: في رأْيه خَلَلٌ."^^xsd:string ,
+                             "يقال: هو خَلَلَهُم: بينَهم."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "خَلَل"^^xsd:string .
+
+
+###  http://klklخمار
+http:klklخمار rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklخُمَار ,
+                       http:klklخِمَار ;
+              klkl:hasExample "وفي الحديث: \"أَنه كان يمسحُ على الخُفّ والخِمَار\": العِمامة."^^xsd:string ,
+                              "يقال: دخل فلانٌ في خُمار النَّاس: فيما يواريه ويَسْتُره من أَلمها."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "خُمَار"^^xsd:string ,
+                                "خِمَار"^^xsd:string .
+
+
+###  http://klklخمر
+http:klklخمر rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklخَمْر ;
+             klkl:hasExample "وفي التَّنْزيل العزيز: {إِنِّي أَرَانِي أَعْصِرُ خَمْرًا}[يوسف:36]."^^xsd:string ,
+                             "وفي المثل: \"خُمْرُ أَبي الرَّوْقاء ليست تسكر\": يضرب للغنيّ الذي لا فضلَ له على أَحدٍ ولا إِحسان."^^xsd:string ,
+                             "يقال: الخمر ياقوتة سيالة."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "خَمْر"^^xsd:string .
+
+
+###  http://klklداحض
+http:klklداحض rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَاحِض ;
+              klkl:hasExample "يقال: فلانٌ داحِض: لا ثبات له ولا عزيمة في الأمور."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "دَاحِض"^^xsd:string .
+
+
+###  http://klklداحضة
+http:klklداحضة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklدَاحِضَة ;
+               klkl:hasExample "يقال: حُجَّةٌ داحضة: باطلة."^^xsd:string ;
+               klkl:hasType "اسم"^^xsd:string ;
+               klkl:hasVocalized "دَاحِضَة"^^xsd:string .
+
+
+###  http://klklداري
+http:klklداري rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَارِيّ ;
+              klkl:hasExample "وفي الحديث: \"مَثَل الجليس الصَّالح مَثَلُ الدَّارِيّ، إِن لم يُحذِك من عِطْره عَلِقَك مِنْ ريحه\"."^^xsd:string ;
+              klkl:hasType "اسم منسوب"^^xsd:string ;
+              klkl:hasVocalized "دَارِيّ"^^xsd:string .
+
+
+###  http://klklدثاري
+http:klklدثاري rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklدِثَارِيّ ;
+               klkl:hasExample "يقال: رجلٌ دِثَارِيّ: كسلان ساكنٌ لا يتصرّف."^^xsd:string ;
+               klkl:hasType "اسم"^^xsd:string ;
+               klkl:hasVocalized "دِثَارِيّ"^^xsd:string .
+
+
+###  http://klklدجم
+http:klklدجم rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklدَجْم ;
+             klkl:hasExample "يقال: أَمِنْ هذا الدَّجْم أَنت؟."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "دَجْم"^^xsd:string .
+
+
+###  http://klklدجمة
+http:klklدجمة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدُجْمَة ;
+              klkl:hasExample "يقال: انقشعت دُجَمُ الباطل."^^xsd:string ,
+                              "يقال: هو في دُجَم الهوى."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "دُجْمَة"^^xsd:string .
+
+
+###  http://klklدجن
+http:klklدجن rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklدَجْن ;
+             klkl:hasExample "يقال: يومُ دَجْنٍ. ويوصف به فيقال: يومٌ دَجْنٌ."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "دَجْن"^^xsd:string .
+
+
+###  http://klklدحاس
+http:klklدحاس rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدِحَاس ;
+              klkl:hasExample "يقال: بيتٌ دِحَاسٌ: كثيرُ الأَهل."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "دِحَاس"^^xsd:string .
+
+
+###  http://klklدخال
+http:klklدخال rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَخَّال ,
+                       http:klklدِخَال ;
+              klkl:hasExample "يقال: سَقَى إِبلَهُ دِخالاً."^^xsd:string ,
+                              "يقال: فلانٌ دَخَّال في الأُمور: كثيرُ التَّصرف فيها."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ,
+                           "صفة"^^xsd:string ;
+              klkl:hasVocalized "دَخَّال"^^xsd:string ,
+                                "دِخَال"^^xsd:string .
+
+
+###  http://klklدخلة
+http:klklدخلة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدِخْلَة ;
+              klkl:hasExample "يقال: هو حَسَن الدِّخْلَة، وهو عفيف الدِّخْلَة، وهو خبيث الدِّخْلَة."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "دِخْلَة"^^xsd:string .
+
+
+###  http://klklدخيل
+http:klklدخيل rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَخِيل ;
+              klkl:hasExample "يقال: داءٌ دَخِيل: دَخْل."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "دَخِيل"^^xsd:string .
+
+
+###  http://klklدرقوع
+http:klklدرقوع rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklدُرْقُوع ;
+               klkl:hasExample "يقال: جوعٌ دُرْقُوع: شديد."^^xsd:string ;
+               klkl:hasType "صفة"^^xsd:string ;
+               klkl:hasVocalized "دُرْقُوع"^^xsd:string .
+
+
+###  http://klklدرك
+http:klklدرك rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklدَرَك ,
+                      http:klklدَرْك ;
+             klkl:hasExample "وفي التَّنْزيل العزيز: {لاَ تَخَافُ دَرَكًا وَلاَ تَخْشَى}[طه:77]."^^xsd:string ,
+                             "يقال: بَلغَ الغَوَّاصُ دَرَك البحر."^^xsd:string ,
+                             "يقال: بَلغَ الغَوَّاصُ دَرْك البحر."^^xsd:string ;
+             klkl:hasType "اسم مصدر"^^xsd:string ;
+             klkl:hasVocalized "دَرَك"^^xsd:string ,
+                               "دَرْك"^^xsd:string .
+
+
+###  http://klklدوار
+http:klklدوار rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَوَّار ;
+              klkl:hasExample "يقال: الدَّهْرُ دَوَّارٌ بالإِنسان: دائرٌ به."^^xsd:string ;
+              klkl:hasType "صيغة مبالغة"^^xsd:string ;
+              klkl:hasVocalized "دَوَّار"^^xsd:string .
+
+
+###  http://klklدور
+http:klklدور rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklدَوْر ;
+             klkl:hasExample "يقال: انْفَسَخَ دَوْرُ عمامتِه."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "دَوْر"^^xsd:string .
+
+
+###  http://klklدورق
+http:klklدورق rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklدَوْرَق ;
+              klkl:hasExample "يقال: فلانٌ دَوْرَق: متنسك."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "دَوْرَق"^^xsd:string .
+
+
+###  http://klklذمامة
+http:klklذمامة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklذَمَامَة ;
+               klkl:hasExample "وفي حديث موسى والخضر: \"أَخذتْه من صاحبه ذَمَامَةٌ\"."^^xsd:string ;
+               klkl:hasType "اسم"^^xsd:string ;
+               klkl:hasVocalized "ذَمَامَة"^^xsd:string .
+
+
+###  http://klklذنب
+http:klklذنب rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklذَنَب ;
+             klkl:hasExample "يقال: نظر إِليه بذَنَب عينه: أَي بمؤخرها."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "ذَنَب"^^xsd:string .
+
+
+###  http://klklذنوب
+http:klklذنوب rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklذَنُوب ;
+              klkl:hasExample "يقال: يومٌ ذَنُوب: طويل الشّر."^^xsd:string ;
+              klkl:hasType "صيغة مبالغة"^^xsd:string ;
+              klkl:hasVocalized "ذَنُوب"^^xsd:string .
+
+
+###  http://klklراحم
+http:klklراحم rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklرَاحِم ;
+              klkl:hasExample "يقال: شاةٌ رَاحِم، وعنزٌ راحمٌ."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "رَاحِم"^^xsd:string .
+
+
+###  http://klklرثد
+http:klklرثد rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklرَثَد ;
+             klkl:hasExample "يقال: تركنا على الماءِ رَثَدًا ما يطيقون تَحَمُّلاً."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "رَثَد"^^xsd:string .
+
+
+###  http://klklرثمة
+http:klklرثمة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklرَثْمَة ;
+              klkl:hasExample "يقال: بَلَغَهُ رَثْمَةٌ من الخبر: طَرَفٌ منه."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "رَثْمَة"^^xsd:string .
+
+
+###  http://klklرحمة
+http:klklرحمة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklرَحْمَة ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {وَإِذَا أَذَقْنَا النَّاسَ رَحْمَةً مِنْ بَعْدِ ضَرَّاءَ مَسَّتْهُمْ}[يونس:21]."^^xsd:string ;
+              klkl:hasType "مصدر"^^xsd:string ;
+              klkl:hasVocalized "رَحْمَة"^^xsd:string .
+
+
+###  http://klklرحموت
+http:klklرحموت rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklرَحْمَة ;
+               klkl:hasExample "يقال: \"رَهَبُوتٌ خيْرٌ لَكَ من رَحَمُوت\": أَي لأَنْ تُرْهَبَ خيْرٌ لَكَ من أَن تُرْحَمَ. ولم يستعمل إِلاَّ مزدوِجًا."^^xsd:string ;
+               klkl:hasType "مصدر"^^xsd:string ;
+               klkl:hasVocalized "رَحَمُوت"^^xsd:string .
+
+
+###  http://klklرعة
+http:klklرعة rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklرِعَة ;
+             klkl:hasExample "يُقال: هو حَسَن الرِّعة."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "رِعَة"^^xsd:string .
+
+
+###  http://klklرفاء
+http:klklرفاء rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklرِفَاء ;
+              klkl:hasExample "يقال للمتزوج: بالرِّفاء والبنين: بالوفاق والوئام والخَلَفِ الصَّالح."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "رِفَاء"^^xsd:string .
+
+
+###  http://klklرفة
+http:klklرفة rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklرُفَة ;
+             klkl:hasExample "وفي المثل: \"أَغنى من التُّفَةِ عن الرُّفة\": يضرب للئيم إِذا شبع."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "رُفَة"^^xsd:string .
+
+
+###  http://klklرفش
+http:klklرفش rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklرَفْش ;
+             klkl:hasExample "يقال: وَقع في الرَّفْش والقَفْش: الأَكل ومباشرة النساء."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "رَفْش"^^xsd:string .
+
+
+###  http://klklرفهنية
+http:klklرفهنية rdf:type owl:NamedIndividual ,
+                         http:klklاسم ,
+                         http:klklرُفَهْنِيَة ;
+                klkl:hasExample "يقال: هو في رُفَهْنِيَةٍ من العيش."^^xsd:string ;
+                klkl:hasType "اسم"^^xsd:string ;
+                klkl:hasVocalized "رُفَهْنِيَة"^^xsd:string .
+
+
+###  http://klklرقوء
+http:klklرقوء rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklرَقُوء ;
+              klkl:hasExample "يقال: سَكَن النَّزْفُ بالرَّقوء."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "رَقُوء"^^xsd:string .
+
+
+###  http://klklعذاة
+http:klklعذاة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklعَذَاة ;
+              klkl:hasExample "قال حُذيفة لرجُل: \"إِن كنت لا بُدَّ نازِلاً بالبصرةِ فانزل عَذَواتِها ولا تَنْزل سُرَّتَها\"."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "عَذَاة"^^xsd:string .
+
+
+###  http://klklعذل
+http:klklعذل rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklعَذَل ;
+             klkl:hasExample "وفي المثل: \"سَبَقَ السَّيْفُ العَذَل\": يُضْرَبُ لِما قَدْ فَات ولا يُسْتَدْرَك."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "عَذَل"^^xsd:string .
+
+
+###  http://klklفطرة
+http:klklفطرة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklفِطْرَة ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {فِطْرَةَ اللهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا لاَ تَبْدِيلَ لِخَلْقِ اللهِ} [الروم:30]."^^xsd:string ;
+              klkl:hasType "مصدر هيئة"^^xsd:string ;
+              klkl:hasVocalized "فِطْرَة"^^xsd:string .
+
+
+###  http://klklمدرى
+http:klklمدرى rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklمِدْرَى ;
+              klkl:hasExample "يقال: نَطَحَهُ الثَّوْرُ بالمِدْرَى: بالقرن المحدَّد."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "مِدْرَى"^^xsd:string .
+
+
+###  http://klklمذمر
+http:klklمذمر rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklمُذَمَّر ;
+              klkl:hasExample "يقال: بَلَغَ الأَمرُ المُذَمَّر: اشتدّ."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "مُذَمَّر"^^xsd:string .
+
+
+###  http://klklمرسن
+http:klklمرسن rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklمَرْسَن ;
+              klkl:hasExample "يقال: سَلِسَ مَرْسَنُه: سَلِسَ قيادُهُ."^^xsd:string ,
+                              "يقال: فَعَلت ذلك على رغم مَرْسَنِه."^^xsd:string ,
+                              "يقال: فَعَلت ذلك على رغم مَرْسِنِه."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "مَرْسَن"^^xsd:string .
+
+
+###  http://klklموعد
+http:klklموعد rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklمَوْعِد ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {فَأَخْلَفْتُمْ مَوْعِدِي}[طه:86]؛ أَي: عَهْدِي."^^xsd:string ;
+              klkl:hasType "اسم مكان"^^xsd:string ;
+              klkl:hasVocalized "مَوْعِد"^^xsd:string .
+
+
+###  http://klklموعدة
+http:klklموعدة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklمَوْعِدَة ;
+               klkl:hasExample "وفي التَّنْزيل العزيز: {وَمَا كَانَ اسْتِغْفَارُ إِبْرَاهِيمَ لأَبِيهِ إِلاَّ عَنْ مَوْعِدَةٍ وَعَدَهَا إِيَّاهُ}[التوبة:114]."^^xsd:string ;
+               klkl:hasType "مصدر"^^xsd:string ;
+               klkl:hasVocalized "مَوْعِدَة"^^xsd:string .
+
+
+###  http://klklموقر
+http:klklموقر rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklمُوْقَر ;
+              klkl:hasExample "يُقال: نَخْلَةٌ مُوقَرٌ: كثيرة الحمل."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "مُوْقَر"^^xsd:string .
+
+
+###  http://klklميسرة
+http:klklميسرة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklمَيْسَرَة ;
+               klkl:hasExample "يُقال: مَيْسَرَةُ الجيش."^^xsd:string ,
+                               "يُقال: وَلاَّهُ مَيَاسِرَه."^^xsd:string ;
+               klkl:hasType "مصدر"^^xsd:string ;
+               klkl:hasVocalized "مَيْسَرَة"^^xsd:string .
+
+
+###  http://klklميسور
+http:klklميسور rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklمَيْسُور ;
+               klkl:hasExample "يُقال: خُذ بميسورِه ودَعْ مَعْسُورَه."^^xsd:string ;
+               klkl:hasType "مصدر"^^xsd:string ;
+               klkl:hasVocalized "مَيْسُور"^^xsd:string .
+
+
+###  http://klklوادك
+http:klklوادك rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَادِك ;
+              klkl:hasExample "يُقال: رَجُلٌ وادِك."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَادِك"^^xsd:string .
+
+
+###  http://klklوارد
+http:klklوارد rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَارِد ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {فَأَرْسَلُوا وَارِدَهُمْ}[يوسف:19]."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَارِد"^^xsd:string .
+
+
+###  http://klklواعر
+http:klklواعر rdf:type owl:NamedIndividual ,
+                       http:klklأَوْعَر ,
+                       http:klklاسم ;
+              klkl:hasExample "يُقال: جَبَلٌ وَاعِر."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "وَاعِر"^^xsd:string .
+
+
+###  http://klklوافل
+http:klklوافل rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَافِل ;
+              klkl:hasExample "يُقال: قَصَبٌ وافِل."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَافِل"^^xsd:string .
+
+
+###  http://klklوافية
+http:klklوافية rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklوَافِيَة ;
+               klkl:hasExample "يُقال: وَزَنَ له بالوافِية."^^xsd:string ;
+               klkl:hasType "اسم"^^xsd:string ;
+               klkl:hasVocalized "وَافِيَة"^^xsd:string .
+
+
+###  http://klklودفة
+http:klklودفة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَدَفَة ;
+              klkl:hasExample "يُقال: أَصْبَحت الأَرضُ كلُّها وَدَفةً واحدةً خِصبًا: إِذا اخضرَّت كلُّها."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَدَفَة"^^xsd:string .
+
+
+###  http://klklوديك
+http:klklوديك rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَدِيك ;
+              klkl:hasExample "يُقال: أَكَلَ دِيكًا وَدِيكًا: سَمينًا."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَدِيك"^^xsd:string .
+
+
+###  http://klklوذأة
+http:klklوذأة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَذْأَة ;
+              klkl:hasExample "يُقال: ما بِه وَذْأَةٌ: لا عِلَّةَ به."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَذْأَة"^^xsd:string .
+
+
+###  http://klklوذرة
+http:klklوذرة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَذِرَة ;
+              klkl:hasExample "يُقال: عَضَدٌ وَذِرَة."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "وَذِرَة"^^xsd:string .
+
+
+###  http://klklوذماء
+http:klklوذماء rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklوَذْمَاء ;
+               klkl:hasExample "يُقال: امرأَةٌ وَذْمَاء، وفَرَسٌ وَذْمَاء."^^xsd:string ;
+               klkl:hasType "صفة"^^xsd:string ;
+               klkl:hasVocalized "وَذْمَاء"^^xsd:string .
+
+
+###  http://klklوذية
+http:klklوذية rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَذِيَّة ;
+              klkl:hasExample "يُقال: دُنيا وَذِيَّة."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَذِيَّة"^^xsd:string .
+
+
+###  http://klklوراء
+http:klklوراء rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرَاء ;
+              klkl:hasExample "وتكون وراء بمعنى سِوى نحو قوله تَعَالى: {فَمَنِ ابْتَغَى وَرَاءَ ذَلِكَ}[المؤمنون:7] أَي: سِوى ذلك."^^xsd:string ,
+                              "وفي التَّنْزيل العزيز: {مِنْ وَرَائِهِ جَهَنَّمُ}[إبراهيم:16]: أَمامَه وقُدَّامه."^^xsd:string ,
+                              "ويقع ظَرفًا، قال تَعَالى: {وَكَانَ وَرَاءَهُمْ مَلِكٌ يَأْخُذُ كُلَّ سَفِينةٍ غَصْبًا}[الكهف:79]: أَي أَمامهم."^^xsd:string ,
+                              "يُقال: هو وراءَك لما استتر عنك، سواء أَكان خَلْفًا أَم قُدَّامًا."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَرَاء"^^xsd:string .
+
+
+###  http://klklوراق
+http:klklوراق rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرَاق ;
+              klkl:hasExample "يُقال: ما أَحسَنَ وَرَاقَه: لِبْستَه وشَارَتَه."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَرَاق"^^xsd:string .
+
+
+###  http://klklورد
+http:klklورد rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوِرْد ;
+             klkl:hasExample "يُقال: قَرَأْتُ وِرْدِي."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وِرْد"^^xsd:string .
+
+
+###  http://klklورطة
+http:klklورطة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرْطَة ;
+              klkl:hasExample "يُقال: وَقَعَ فلانٌ في وَرْطَةٍ عَظِيمة."^^xsd:string ;
+              klkl:hasType "مصدر مرة"^^xsd:string ;
+              klkl:hasVocalized "وَرْطَة"^^xsd:string .
+
+
+###  http://klklورقة
+http:klklورقة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرَقَة ,
+                       http:klklوَرْقَة ;
+              klkl:hasExample "يُقال: في القوس وَرْقة."^^xsd:string ,
+                              "يُقال: هو وَرَقَةٌ، وهي وَرَقَةٌ، إِذا كانا ضَعيفين خَسِيسين."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَرَقَة"^^xsd:string ,
+                                "وَرْقَة"^^xsd:string .
+
+
+###  http://klklوريد
+http:klklوريد rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرِيد ;
+              klkl:hasExample "وفي التَّنْزيل العزيز: {وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الوَرِيد}[ق:16]."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَرِيد"^^xsd:string .
+
+
+###  http://klklوريس
+http:klklوريس rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَرِيس ;
+              klkl:hasExample "يُقال: ثَوبٌ وَرِيسٌ. ومِلْحَفَةٌ وَرِيسَة."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "وَرِيس"^^xsd:string .
+
+
+###  http://klklوشل
+http:klklوشل rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوَشَل ;
+             klkl:hasExample "يُقال: ما أَصَاب إِلاَّ وَشَلاً من الدّنيا."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وَشَل"^^xsd:string .
+
+
+###  http://klklوصم
+http:klklوصم rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوَصْم ;
+             klkl:hasExample "يُقال: قَناةٌ فيها وَصْمٌ: صَدْعٌ في أُنبوبها."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وَصْم"^^xsd:string .
+
+
+###  http://klklوعثاء
+http:klklوعثاء rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklوَعْثَاء ;
+               klkl:hasExample "يُقال: أَعوذُ بالله من وَعْثَاء السَّفر."^^xsd:string ;
+               klkl:hasType "صفة"^^xsd:string ;
+               klkl:hasVocalized "وَعْثَاء"^^xsd:string .
+
+
+###  http://klklوعثة
+http:klklوعثة rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklوَعْثَة ;
+              klkl:hasExample "يُقال: امرأَةٌ وَعْثَةُ الأَرداف."^^xsd:string ;
+              klkl:hasType "صفة"^^xsd:string ;
+              klkl:hasVocalized "وَعْثَة"^^xsd:string .
+
+
+###  http://klklوعد
+http:klklوعد rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوَعْد ;
+             klkl:hasExample "قالَ البُحْتُرِيُّ:   أَنْتَ الكَريمُ وَقَد قَدَّمْتَ مُبْتَدِئًا   وَعْدًا وَكُلُّ كريمٍ عِنْدَ مَوْعِدِهِ."^^xsd:string ;
+             klkl:hasType "مصدر"^^xsd:string ;
+             klkl:hasVocalized "وَعْد"^^xsd:string .
+
+
+###  http://klklوعر
+http:klklوعر rdf:type owl:NamedIndividual ,
+                      http:klklأَوْعَر ,
+                      http:klklاسم ;
+             klkl:hasExample "يُقال: مَكانٌ وَعْرٌ، وطَرِيقٌ وَعْرٌ، ومَطْلَبٌ وَعْرٌ."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وَعْر"^^xsd:string .
+
+
+###  http://klklوعساء
+http:klklوعساء rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklوَعْسَاء ;
+               klkl:hasExample "يُقال: مَشَى في الوَعْسَاء."^^xsd:string ;
+               klkl:hasType "صفة"^^xsd:string ;
+               klkl:hasVocalized "وَعْسَاء"^^xsd:string .
+
+
+###  http://klklوقش
+http:klklوقش rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوَقْش ;
+             klkl:hasExample "يُقال: سَمِعتُ وَقْشَهُ."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وَقْش"^^xsd:string .
+
+
+###  http://klklوكد
+http:klklوكد rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklوُكْد ;
+             klkl:hasExample "يُقال: مازال ذلك وُكْدِي: فِعْلي."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "وُكْد"^^xsd:string .
+
+
+###  http://klklوليجة
+http:klklوليجة rdf:type owl:NamedIndividual ,
+                        http:klklاسم ,
+                        http:klklوَلِيجَة ;
+               klkl:hasExample "يُقال: هو وَلِيجَتُكُم: لصيقٌ بكم."^^xsd:string ;
+               klkl:hasType "اسم"^^xsd:string ;
+               klkl:hasVocalized "وَلِيجَة"^^xsd:string .
+
+
+###  http://klklيسار
+http:klklيسار rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklيَسَار ;
+              klkl:hasExample "يُقال: قَعَدَ يمينًا أَو يسارًا، أَو عن اليمين أَو عن اليَسَار."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "يَسَار"^^xsd:string .
+
+
+###  http://klklيسير
+http:klklيسير rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklيَسِير ;
+              klkl:hasExample "يُقال: شَيءٌ يَسِيرٌ."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "يَسِير"^^xsd:string .
+
+
+###  http://klklيعار
+http:klklيعار rdf:type owl:NamedIndividual ,
+                       http:klklاسم ,
+                       http:klklيُعَار ;
+              klkl:hasExample "يُقال: للشاةِ يُعَار."^^xsd:string ;
+              klkl:hasType "اسم"^^xsd:string ;
+              klkl:hasVocalized "يُعَار"^^xsd:string .
+
+
+###  http://klklيوم
+http:klklيوم rdf:type owl:NamedIndividual ,
+                      http:klklاسم ,
+                      http:klklيَوْم ;
+             klkl:hasExample "وفي التَّنْزيل العزيز: {الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ}[المائدة:3]."^^xsd:string ;
+             klkl:hasType "اسم"^^xsd:string ;
+             klkl:hasVocalized "يَوْم"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
